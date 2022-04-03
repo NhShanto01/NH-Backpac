@@ -1,9 +1,14 @@
 import React from 'react';
 
-const Review = () => {
+const Review = (props) => {
+    const { name, picture, title, review } = props.review;
+    // console.log(data);
     return (
         <div>
-            <h2>This is Review</h2>
+            <img src={picture} alt="" />
+            <h4>{name}</h4>
+            <h3>{title}</h3>
+            <p><b>{review}</b></p>
         </div>
     );
 };
