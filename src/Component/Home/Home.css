@@ -1,5 +1,13 @@
-.home {
+.home-container {
     background-color: lightyellow;
+    display: flex;
+    justify-content: space-around;
+}
+
+.home {
+    margin: 20px;
+    text-align: start;
+    margin-top: 95px;
 }
 
 .home h1 {
@@ -8,5 +16,27 @@
 
 .home p {
     color: olive;
-    font-weight: 400;
+    font-weight: 500;
+
+}
+
+.home-btn {
+    background-color: rgba(106, 142, 35, 0.651);
+    color: rgb(62, 94, 0);
+    font-weight: 800;
+    font-size: 15px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid olivedrab;
+    cursor: pointer;
+}
+
+.home-btn:hover {
+    background-color: rgba(106, 142, 35, 0.486);
+}
+
+.home-img {
+    width: 500px;
+
 }
