@@ -21,3 +21,7 @@ p {
 .review:hover {
     background-color: lightyellow;
 }
+
+.star {
+    color: goldenrod;
+}

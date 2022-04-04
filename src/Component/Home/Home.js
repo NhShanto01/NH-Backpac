@@ -35,9 +35,10 @@ const Home = () => {
                     ></Review>)
                 }
 
-                <Link to='/reviews' className='review-btn'>See More Reviews
-                </Link>
             </div>
+            <Link to='/reviews' className='review-btn'>See More Reviews
+            </Link>
+
         </section>
 
     );

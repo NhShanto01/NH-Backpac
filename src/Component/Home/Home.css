@@ -45,6 +45,7 @@
 
 .customar-review {
     margin-top: 50px;
+    margin-bottom: 50px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
@@ -55,8 +56,8 @@
 .review-btn {
     background-color: lightyellow;
     color: olive;
-    margin: 10px;
-    padding: 10px;
+
+    padding: 10px 15px;
     border: 2px solid olivedrab;
     border-radius: 8px;
     cursor: pointer;
