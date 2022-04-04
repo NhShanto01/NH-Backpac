@@ -36,14 +36,21 @@
     background-color: rgba(106, 142, 35, 0.486);
 }
 
-.home-img {
-    width: 500px;
+.home-container img {
+    margin: 50px;
+    margin-top: 100px;
+    width: 250px;
 
 }
 
 .customar-review {
     margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
 }
+
+
 
 .review-btn {
     background-color: lightyellow;
@@ -53,4 +60,5 @@
     border: 2px solid olivedrab;
     border-radius: 8px;
     cursor: pointer;
+
 }

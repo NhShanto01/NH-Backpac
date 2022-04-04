@@ -10,7 +10,8 @@ const Header = () => {
             </div>
             <div className='header-link'>
                 <CustomLink to="/home">Home</CustomLink>
-                <CustomLink to="/review">Review</CustomLink>
+                {/* <CustomLink to="/review">Review</CustomLink> */}
+                <CustomLink to="/reviews">Reviews</CustomLink>
                 <CustomLink to="/dashboard">Dashboard</CustomLink>
                 <CustomLink to="/blog">Blog</CustomLink>
             </div>

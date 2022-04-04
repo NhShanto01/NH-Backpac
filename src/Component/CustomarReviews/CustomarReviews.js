@@ -1,9 +1,7 @@
 import React from 'react';
-import './Review.css';
 
-const Review = ({ review }) => {
-    const { name, picture, title, reviews } = review;
-    // console.log(data);
+const CustomarReviews = ({ data }) => {
+    const { name, picture, title, reviews } = data;
     return (
         <div className='review'>
             <img src={picture} alt="" />
@@ -14,4 +12,4 @@ const Review = ({ review }) => {
     );
 };
 
-export default Review;
+export default CustomarReviews;

@@ -1,17 +1,15 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import './Home.css';
 import img from '../../img/wild-bag.png';
 import Review from '../Review/Review';
 import useReviews from '../hook/useReviews';
+import { Link, useNavigate } from 'react-router-dom';
 
 const Home = () => {
     const [reviews, setReviews] = useReviews();
-    console.log(reviews);
-    // useEffect(() => {
-    //     fetch('review.json')
-    //         .then(res => res.json())
-    //         .then(data => setReviews(data))
-    // }, [])
+
+    const displayReview = reviews.slice(0, 3);
+
     return (
         <section>
             <div className='home-container'>
@@ -27,16 +25,18 @@ const Home = () => {
             </div>
 
             {/* review part */}
-
+            <h1>Customar Review({reviews.length})</h1>
             <div className='customar-review'>
-                <h1>Customar Review({reviews.length})</h1>
+
                 {
-                    reviews.map(review => <Review
+                    displayReview.map(review => <Review
                         key={review.id}
                         review={review}
                     ></Review>)
                 }
-                <button className='review-btn'>See More Reviews</button>
+
+                <Link to='/reviews' className='review-btn'>See More Reviews
+                </Link>
             </div>
         </section>
 
