@@ -7,6 +7,7 @@ import './CustomarReviews.css';
 const CustomarReviews = ({ data }) => {
     const { name, picture, date, title, reviews, rating } = data;
     return (
+
         <div className='review'>
             <img src={picture} alt="" />
             <h4>{name}</h4>

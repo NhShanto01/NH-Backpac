@@ -56,8 +56,8 @@
 .review-btn {
     background-color: lightyellow;
     color: olive;
-
-    padding: 10px 15px;
+    margin: 20px;
+    padding: 10px;
     border: 2px solid olivedrab;
     border-radius: 8px;
     cursor: pointer;
