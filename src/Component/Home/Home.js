@@ -3,7 +3,7 @@ import './Home.css';
 import img from '../../img/wild-bag.png';
 import Review from '../Review/Review';
 import useReviews from '../hook/useReviews';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     const [reviews, setReviews] = useReviews();

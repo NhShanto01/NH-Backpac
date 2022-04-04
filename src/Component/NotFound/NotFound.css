@@ -1,0 +1,17 @@
+.notfound img {
+    width: 550px;
+}
+
+.notfound-text {
+    color: olivedrab;
+}
+
+.notfound-btn {
+    background-color: lightgoldenrodyellow;
+    color: olive;
+    border: 2px solid olivedrab;
+    border-radius: 8px;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: 600;
+}
